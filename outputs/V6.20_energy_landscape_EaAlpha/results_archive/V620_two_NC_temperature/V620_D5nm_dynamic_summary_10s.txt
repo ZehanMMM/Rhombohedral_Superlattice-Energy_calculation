@@ -1,0 +1,22 @@
+V6.20 D=5 nm coupled-Neel calculation
+======================================
+State space: 8 <111> wells per NC, 64 pair states
+Initial state: both moments in +[111]
+Dynamic experimental observation time: 10 s
+ZFC/FC time used to calibrate K: 100 s
+Attempt time: 9.800000e-10 s
+Nominal blocking temperature: 250 K
+Nominal adjacent-well barrier: 8.749393179e-20 J
+Barrier relation: Delta E = K_cubic V / 12; K_cubic = 2.563298783e+05 J/m^3
+Lognormal diameter coefficient of variation: 6.000%
+Barrier quadrature count: 11
+Dipole interaction is included in each transition-state barrier.
+Anisotropy is referenced to the easy-axis minimum; occupied discrete wells have Delta Eani = 0.
+Only face-to-face pair vdW is exported and plotted.
+
+T_K,face_Emag_zJ,tip_Emag_zJ,face_initial_probability,tip_initial_probability
+200.00,-2.143354,-9.285438,0.860764,0.954013
+224.00,-5.961126,-8.694159,0.667650,0.858971
+250.00,-8.646260,-7.630213,0.468510,0.700409
+274.00,-12.628738,-6.309465,0.292500,0.513812
+300.00,-14.079835,-5.185307,0.166990,0.350434
