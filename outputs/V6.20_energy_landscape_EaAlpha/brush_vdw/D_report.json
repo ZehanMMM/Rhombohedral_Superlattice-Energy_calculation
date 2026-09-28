@@ -1,0 +1,18 @@
+{
+  "reference_gap_nm": 3.3777363706058696,
+  "implied_experimental_gaps_nm": {
+    "L16": 3.3777,
+    "L18": 2.8343,
+    "L18.2": 3.6304,
+    "L19.5": 3.3762,
+    "L29.6": 1.6315
+  },
+  "locked_twist_alpha_deg": 78.55635496385955,
+  "branch_crossing_hamaker_J": 1.2644143434499984e-20,
+  "v620_default_hamaker_J": 2e-20,
+  "literature_range_J": [
+    9e-21,
+    2.9e-20
+  ],
+  "runtime_s": 87.93434360018
+}

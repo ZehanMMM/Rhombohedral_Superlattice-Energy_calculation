@@ -1,0 +1,17 @@
+state,a_nm,alpha_deg,shell_edge_cells,dipole_per_particle_kBT,minus_largest_shell_kBT
+experimental_branch,20.31000,74.0000,3,-3.556268,+0.108541
+experimental_branch,20.31000,74.0000,5,-3.626763,+0.038046
+experimental_branch,20.31000,74.0000,7,-3.645795,+0.019014
+experimental_branch,20.31000,74.0000,9,-3.653653,+0.011156
+experimental_branch,20.31000,74.0000,13,-3.659926,+0.004883
+experimental_branch,20.31000,74.0000,17,-3.662326,+0.002483
+experimental_branch,20.31000,74.0000,25,-3.664143,+0.000666
+experimental_branch,20.31000,74.0000,33,-3.664809,+0.000000
+locked_twist_branch,19.55700,78.5560,3,-3.057635,+0.090614
+locked_twist_branch,19.55700,78.5560,5,-3.117248,+0.031002
+locked_twist_branch,19.55700,78.5560,7,-3.132739,+0.015511
+locked_twist_branch,19.55700,78.5560,9,-3.139144,+0.009105
+locked_twist_branch,19.55700,78.5560,13,-3.144262,+0.003987
+locked_twist_branch,19.55700,78.5560,17,-3.146221,+0.002028
+locked_twist_branch,19.55700,78.5560,25,-3.147705,+0.000544
+locked_twist_branch,19.55700,78.5560,33,-3.148249,+0.000000

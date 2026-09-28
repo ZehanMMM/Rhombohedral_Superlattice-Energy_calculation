@@ -1,0 +1,29 @@
+{
+  "L_nm": 18.2,
+  "fitted": {
+    "P_ref_Pa": 32192.790577678155,
+    "reference_gap_nm": 3.465,
+    "lambda_nm": 0.4898429165105778,
+    "vertex_alpha_deg": 74.04354951486988,
+    "vertex_a_nm": 20.29821876374509,
+    "gap_at_target_nm": 3.2586235732071174,
+    "gamma_at_target_deg": -12.082686555603964,
+    "pressure_at_target_gap_Pa": 49060.48756906841,
+    "pressure_extrapolated_to_contact_Pa": 38003699.114617586,
+    "components_kBT": {
+      "Dipole": -3.5554840849072007,
+      "VdW": -3.2770163570437596,
+      "Steric": 1.3045564459475754,
+      "Interaction": -5.527943996003385,
+      "Total": -153.95519244008113
+    }
+  },
+  "free_landscape_minimum": {
+    "alpha": 72.77749804893409,
+    "a": 22.788227389878102,
+    "gamma": -16.488601849421187,
+    "gap": 3.2660108043098877,
+    "interaction": -8.333050140354572,
+    "total": -226.79099943186262
+  }
+}

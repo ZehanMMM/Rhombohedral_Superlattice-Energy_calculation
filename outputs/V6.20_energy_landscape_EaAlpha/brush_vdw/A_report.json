@@ -1,0 +1,69 @@
+{
+  "reference_state": {
+    "L_nm": 16.0,
+    "a_nm": 20.31,
+    "alpha_deg": 74.0,
+    "gamma_deg": -15.0,
+    "gap_nm": 3.3777363706058696
+  },
+  "observed_convergence_order": {
+    "nearest_edge_contact": 1.9608152155081495,
+    "primitive_face_bond": 1.9610060830511469,
+    "corner_neighbour": 1.9952016120383589
+  },
+  "single_bond_error_at_N4": {
+    "nearest_edge_contact": 0.34344550810421537,
+    "primitive_face_bond": 0.3932995251668586,
+    "corner_neighbour": 0.0889947263876314
+  },
+  "lattice_VdW6_kBT": {
+    "N4": -2.083771007959982,
+    "exact": -3.434595973462974,
+    "exact_over_N4": 1.6482597945469324
+  },
+  "fixed_gap_fit": {
+    "L16_4": {
+      "alpha_star_deg": 74.19124811671894,
+      "a_star_nm": 20.194330124855806,
+      "interaction_kBT": -5.8435972666422185
+    },
+    "L16_exact": {
+      "alpha_star_deg": 78.5563843978302,
+      "a_star_nm": 19.556980621574315,
+      "interaction_kBT": -7.729291148620406
+    },
+    "L13_4": {
+      "alpha_star_deg": 76.40788221797392,
+      "a_star_nm": 16.58942596874166,
+      "interaction_kBT": -3.417533119352601
+    },
+    "L13_exact": {
+      "alpha_star_deg": 76.40791967357971,
+      "a_star_nm": 16.589424834983397,
+      "interaction_kBT": -4.34724053034142
+    },
+    "L19.5_4": {
+      "alpha_star_deg": 72.27231909460306,
+      "a_star_nm": 24.16106645252144,
+      "interaction_kBT": -10.402682426824105
+    },
+    "L19.5_exact": {
+      "alpha_star_deg": 74.48148746210275,
+      "a_star_nm": 23.820710019350134,
+      "interaction_kBT": -13.325609362910136
+    }
+  },
+  "alpha_selection_margin_kBT": {
+    "2": -0.328594,
+    "3": -0.206351,
+    "4": -0.084801,
+    "6": 0.068135,
+    "8": 0.152345,
+    "12": 0.232384,
+    "16": 0.266578,
+    "24": 0.293719,
+    "32": 0.303851,
+    "exact": 0.317432
+  },
+  "runtime_s": 610.6034006997943
+}

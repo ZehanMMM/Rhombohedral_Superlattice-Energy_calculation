@@ -1,0 +1,26 @@
+{
+  "structurally_active_magnetic_parameters": [
+    "Ms"
+  ],
+  "structurally_inert": {
+    "B": "constant Zeeman offset",
+    "K_ani": "constant -K V / 3, moment locked on the [111] easy axis",
+    "T": "kBT unit only"
+  },
+  "V620_Ms_Apm": 285000.0,
+  "literature": {
+    "Ms_Apm": 460000.0,
+    "K1_Jpm3": -11500.0,
+    "source": "V11 PARAMETER_SOURCES.md / Moreno et al. 2020"
+  },
+  "alpha_star_versus_Ms_exact_vdw_deg": {
+    "285000.0": 78.5564,
+    "320000.0": 78.5564,
+    "360000.0": 75.8678,
+    "400000.0": 73.3336,
+    "460000.0": 72.2482,
+    "480000.0": 72.0815
+  },
+  "experimental_alpha_deg": 74.0,
+  "experimental_a_nm": 20.31
+}

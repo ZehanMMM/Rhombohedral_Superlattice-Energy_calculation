@@ -1,0 +1,11 @@
+parameter,variant,value,unit,ratio_to_V620,notes
+Ms,V6.20 (55 A m2/kg x 5.18e3 kg/m3),285000,A/m,1.0000,moment 1.1674e-18 A m2 = 1.2587e+05 muB; Zeeman at 0.5 T -141.8 kBT; mu0 m^2 / 4 pi a^3 at a = 20.31 nm = 3.951 kBT
+Ms,literature (Moreno et al. 2020),460000,A/m,1.6140,moment 1.8842e-18 A m2 = 2.0317e+05 muB; Zeeman at 0.5 T -228.9 kBT; mu0 m^2 / 4 pi a^3 at a = 20.31 nm = 10.294 kBT
+Ms,"bulk magnetite at 300 K, common value",480000,A/m,1.6842,moment 1.9661e-18 A m2 = 2.1200e+05 muB; Zeeman at 0.5 T -238.8 kBT; mu0 m^2 / 4 pi a^3 at a = 20.31 nm = 11.209 kBT
+K_cubic,V6.20 notebook K_ani,20000,J/m^3,1.0000,K V = 19.90 kBT; <111> to <110> barrier K V / 12 = 1.658 kBT; mu0 H_K = 0.140 T; Zeeman/(K V) = 7.12
+K_cubic,V6.20 v620_two_nc_temperature.py (12 x ZFC/FC barrier),256330,J/m^3,12.8165,K V = 255.06 kBT; <111> to <110> barrier K V / 12 = 21.255 kBT; mu0 H_K = 1.799 T; Zeeman/(K V) = 0.56
+K_cubic,literature |K1| (Moreno et al. 2020),11500,J/m^3,0.5750,K V = 11.44 kBT; <111> to <110> barrier K V / 12 = 0.954 kBT; mu0 H_K = 0.081 T; Zeeman/(K V) = 12.39
+B,"V6.20 notebook (assembly field, experimental setting)",0.5,T,1.0000,"enters only as -Ms V B, a constant offset of -141.8 kBT; no effect on alpha*, gamma* or a*"
+B,V6.20 v620_two_nc_temperature.py,0,T,0,that module has no field at all; it is a zero-field pair model
+T,V6.20 notebook,298.15,K,1.0000,sets the kBT unit only; the minimisation is at zero temperature
+E_ani,value implied by the fixed moment direction,-6.633620,kBT,,"E_ani = -K V / 3 for every (a, alpha, gamma): the moment sits on the [111] easy axis and gamma rotates about the moment itself"

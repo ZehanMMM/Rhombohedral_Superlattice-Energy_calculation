@@ -1,0 +1,5 @@
+vdw_rule,brush_model,calibrated_brush_height_nm,relaxed_gap_nm,interaction_kBT
+legacy,derjaguin,1.71315,3.377739,-5.61087
+legacy,facet,1.78247,3.377736,-5.63859
+exact,derjaguin,1.72430,3.377736,-6.91532
+exact,facet,1.78315,3.377736,-6.98626

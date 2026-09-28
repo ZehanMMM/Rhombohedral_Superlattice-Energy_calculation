@@ -1,0 +1,7 @@
+contact_type,voxel_body,exact_gap_nm,body_volume_nm3_at_N96,U_N24_J,U_N48_J,U_N96_J,last_refinement_change
+nearest_edge_contact,sharp,3.377736,4096.0000,-1.26201836e-21,-1.27948884e-21,-1.28400593e-21,+3.5304e-03
+nearest_edge_contact,rounded,3.377736,4007.0278,-1.06246745e-21,-1.06398232e-21,-1.06141851e-21,-2.4096e-03
+primitive_face_bond,sharp,3.563208,4096.0000,-4.61163466e-21,-4.68677282e-21,-4.70619523e-21,+4.1441e-03
+primitive_face_bond,rounded,3.563208,4007.0278,-4.21789668e-21,-4.26553470e-21,-4.27166454e-21,+1.4371e-03
+corner_neighbour,sharp,8.841269,4096.0000,-8.12322629e-23,-8.14039175e-23,-8.14470036e-23,+5.2929e-04
+corner_neighbour,rounded,8.841269,4007.0278,-7.48284968e-23,-7.47911929e-23,-7.47054285e-23,-1.1467e-03

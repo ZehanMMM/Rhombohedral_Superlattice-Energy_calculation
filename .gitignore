@@ -2,6 +2,8 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 *.log
+# The R0 family-probe result is a script output, not a run log.
+!outputs/V6.20_energy_landscape_EaAlpha/brush_vdw/R0_repulsion_family_probe.log
 ~$*.docx
 .DS_Store
 Thumbs.db

@@ -1,0 +1,88 @@
+{
+  "dipole_converged_kBT": {
+    "experimental_branch": -3.6648092659520546,
+    "locked_twist_branch": -3.148249143767169
+  },
+  "attraction_by_shell_kBT": {
+    "shell2_other": -0.9850338370943588,
+    "shell1_primitive": -3.4345959734629745,
+    "shell3_other": -0.06111833454143835
+  },
+  "fits": {
+    "L16_primitive6_fixed_gap": {
+      "alpha_star_deg": 78.5563843978302,
+      "a_star_nm": 19.556980621574315,
+      "gap_star_nm": 3.3777363706058696,
+      "interaction_kBT": -7.729291148620406
+    },
+    "L16_primitive6_free_gap": {
+      "alpha_star_deg": 78.39000174890671,
+      "a_star_nm": 19.63154210120858,
+      "gap_star_nm": 3.4280475743782532,
+      "interaction_kBT": -7.485678440703216
+    },
+    "L13_primitive6_fixed_gap": {
+      "alpha_star_deg": 76.40791967357971,
+      "a_star_nm": 16.589424834983397,
+      "gap_star_nm": 3.3777363706058696,
+      "interaction_kBT": -4.34724053034142
+    },
+    "L13_primitive6_free_gap": {
+      "alpha_star_deg": 76.25752954557397,
+      "a_star_nm": 16.66312008796294,
+      "gap_star_nm": 3.4345138491682254,
+      "interaction_kBT": -4.194611915375329
+    },
+    "L19.5_primitive6_fixed_gap": {
+      "alpha_star_deg": 74.48148746210275,
+      "a_star_nm": 23.820710019350134,
+      "gap_star_nm": 3.3777363706058696,
+      "interaction_kBT": -13.325609362910136
+    },
+    "L19.5_primitive6_free_gap": {
+      "alpha_star_deg": 74.28255106313084,
+      "a_star_nm": 23.916109719364517,
+      "gap_star_nm": 3.4386517985774687,
+      "interaction_kBT": -12.970498037157745
+    },
+    "primitive6_calibrated_brush_height_nm": 1.72429670845423,
+    "L16_all26_fixed_gap": {
+      "alpha_star_deg": 78.55635459623977,
+      "a_star_nm": 19.556985096537954,
+      "gap_star_nm": 3.3777363706058696,
+      "interaction_kBT": -8.78935403659347
+    },
+    "L16_all26_free_gap": {
+      "alpha_star_deg": 78.3301214548317,
+      "a_star_nm": 19.644765987581398,
+      "gap_star_nm": 3.428913893818314,
+      "interaction_kBT": -8.46590445041386
+    },
+    "L13_all26_fixed_gap": {
+      "alpha_star_deg": 76.40787050420171,
+      "a_star_nm": 16.589426457490866,
+      "gap_star_nm": 3.3777363706058696,
+      "interaction_kBT": -5.108453429860752
+    },
+    "L13_all26_free_gap": {
+      "alpha_star_deg": 76.18085841990131,
+      "a_star_nm": 16.67675124747735,
+      "gap_star_nm": 3.433787337514035,
+      "interaction_kBT": -4.898064182590067
+    },
+    "L19.5_all26_fixed_gap": {
+      "alpha_star_deg": 72.85562737900194,
+      "a_star_nm": 24.06367856174676,
+      "gap_star_nm": 3.3777363706058696,
+      "interaction_kBT": -15.098968350002322
+    },
+    "L19.5_all26_free_gap": {
+      "alpha_star_deg": 72.7979536137169,
+      "a_star_nm": 24.151210913746183,
+      "gap_star_nm": 3.446758349310849,
+      "interaction_kBT": -14.605752572101368
+    },
+    "all26_calibrated_brush_height_nm": 1.7299047564703782
+  },
+  "runtime_s": 2243.5931038004346
+}

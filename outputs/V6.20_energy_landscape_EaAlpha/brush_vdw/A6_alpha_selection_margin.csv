@@ -1,0 +1,11 @@
+voxel_count,experimental_alpha_deg,interaction_at_experimental_alpha_kBT,locked_twist_alpha_deg,interaction_at_locked_twist_alpha_kBT,margin_kBT,alpha_star_from_scan_deg,winner
+2,74.00,-4.695913,78.5564,-4.367318,-0.328594,71.3765,experimental branch
+3,74.00,-5.360526,78.5564,-5.154175,-0.206351,72.5271,experimental branch
+4,74.00,-5.843448,78.5564,-5.758647,-0.084801,74.1912,experimental branch
+6,74.00,-6.452984,78.5564,-6.521119,0.068135,78.5564,locked-twist branch
+8,74.00,-6.781820,78.5564,-6.934166,0.152345,78.5564,locked-twist branch
+12,74.00,-7.090064,78.5564,-7.322449,0.232384,78.5563,locked-twist branch
+16,74.00,-7.220105,78.5564,-7.486682,0.266578,78.5564,locked-twist branch
+24,74.00,-7.322677,78.5564,-7.616396,0.293719,78.5564,locked-twist branch
+32,74.00,-7.360840,78.5564,-7.664691,0.303851,78.5564,locked-twist branch
+exact,74.00,-7.411859,78.5564,-7.729291,0.317432,78.5564,locked-twist branch

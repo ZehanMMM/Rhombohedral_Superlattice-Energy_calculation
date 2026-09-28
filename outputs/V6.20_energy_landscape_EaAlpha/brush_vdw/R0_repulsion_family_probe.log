@@ -1,0 +1,19 @@
+target gap D_t = 3.465381 nm (gamma* = -16.777, a = 20.3100)
+attraction only: dE/dD = +3.0786 kBT/nm, dE/dalpha = -0.06690 kBT/deg
+--- exponential, Derjaguin area rule (shape = decay length nm; amp = P at D_t, Pa)
+   shape=0.05   amp=2.5418e+05  dE/dD=-4.15e-09  dE/dalpha=-0.05621  gamma*=-15.673  Steric=0.1416 kBT  [61s]
+   shape=0.15   amp=1.1844e+05  dE/dD=+2.16e-08  dE/dalpha=-0.04109  gamma*=-14.101  Steric=0.3843 kBT  [54s]
+   shape=0.3    amp=68009  dE/dD=-1.11e-07  dE/dalpha=-0.02187  gamma*=-12.274  Steric=0.7001 kBT  [72s]
+   shape=0.6    amp=38715  dE/dD=+2.20e-06  dE/dalpha=+0.00477  gamma*=-9.235  Steric=1.2508 kBT  [184s]
+   shape=1.2    amp=30022  dE/dD=-7.74e-09  dE/dalpha=-0.02663  gamma*=-26.979  Steric=2.8355 kBT  [187s]
+--- exponential, facet-only area rule
+   shape=0.05: no force balance in bracket (f(a) and f(b) must have different signs)
+   shape=0.15   amp=6.0377e+06  dE/dD=-4.21e-09  dE/dalpha=+0.10925  gamma*=0.000  Steric=0.2937 kBT  [5s]
+   shape=0.3: no force balance in bracket (f(a) and f(b) must have different signs)
+   shape=0.6: no force balance in bracket (f(a) and f(b) must have different signs)
+   shape=1.2: no force balance in bracket (f(a) and f(b) must have different signs)
+--- AdG, Derjaguin (shape = grafting spacing nm; amp = brush height L0 nm)
+   shape=0.4    amp=1.7396  dE/dD=+1.69e-03  dE/dalpha=-0.06595  gamma*=-16.653  Steric=0.0051 kBT  [51s]
+   shape=0.63   amp=1.7496  dE/dD=+4.22e-04  dE/dalpha=-0.06556  gamma*=-16.480  Steric=0.0134 kBT  [52s]
+   shape=1      amp=1.7731  dE/dD=+5.50e-05  dE/dalpha=-0.06304  gamma*=-16.084  Steric=0.0337 kBT  [40s]
+   shape=1.6    amp=1.8285  dE/dD=-1.26e-04  dE/dalpha=-0.06037  gamma*=-15.182  Steric=0.0861 kBT  [36s]
