@@ -91,7 +91,7 @@ break.
 
 At the minimum:
 
-- nearest surface gap 3.27 nm, gamma* = -13.5 degrees;
+- nearest surface gap 3.28 nm, gamma* = -13.5 degrees;
 - E_dd = -3.59, E_vdW = -3.26 and E_st = +1.32 kBT, so E_int = -5.53 kBT and E = -153.96 kBT per particle.
 
 The valley floor is flat along alpha, varying by less than 0.01 kBT between
@@ -122,9 +122,12 @@ compare those sizes with the measured range instead.
 
 | File | Content |
 |---|---|
-| `outputs/.../brush_vdw/R_fitted_repulsion_figure.png` | three-panel figure for 16 nm, same layout as main-text Figure 4: (A) lattice, (B) energy components against alpha with a, gamma and the gap relaxed, (C) free E(a, alpha) landscape |
+| `outputs/.../brush_vdw/R_fitted_repulsion_figure_JACS_B`, `_JACS_C` (.pdf, 600 dpi .tif, .png) | main-text Figure 4B and 4C as printed: (B) energy components against alpha with a and gamma relaxed, (C) total energy against a and alpha, gamma relaxed, with the relaxed a at each alpha (dashed) |
+| `outputs/.../brush_vdw/R_SI_S16_final` (.pdf, .tif, .png) | SI Figure S16: (A) dipolar, vdW, steric and total energies against the nearest surface separation D at alpha = 74.0 degrees; (B) vdW energy against alpha with a and gamma relaxed (as in Figure 4B) and at D = 3.3 nm with gamma = 0 (`S16_vdw_fixed_gap.csv`) |
+| `outputs/.../brush_vdw/R_fitted_repulsion_figure_manuscript*`, `_JACS*` | the same Figure 4 as one figure and as separate panels A, B, C |
+| `outputs/.../brush_vdw/R_fitted_repulsion_figure.png` | three-panel diagnostic figure for 16 nm, same layout as main-text Figure 4: (A) lattice, (B) energy components against alpha with a, gamma and the gap relaxed, (C) free E(a, alpha) landscape |
 | `outputs/.../brush_vdw/R_fitted_repulsion_figure_L{18,18.2,19.5,29.6}.png` | the same for the other sizes, parameters frozen |
-| `outputs/.../brush_vdw/R_repulsion_fit_summary.png` | model summary (SI Figure S16): fitted law against the AdG brush, which laws can move the angle, voxel against exact vdW, E_min(alpha) before and after, the valley floor, size transfer |
+| `outputs/.../brush_vdw/R_repulsion_fit_summary.png` | model summary: fitted law against the AdG brush, which laws can move the angle, voxel against exact vdW, E_min(alpha) before and after, the valley floor, size transfer |
 
 ![16 nm](outputs/V6.20_energy_landscape_EaAlpha/brush_vdw/R_fitted_repulsion_figure.png)
 
@@ -147,6 +150,8 @@ python run_repulsion_transfer_check.py   # R5 cost of the measured angle       ~
 python run_repulsion_figure.py           # 16 nm three-panel figure            ~50 min
 python run_repulsion_figure.py --size 18 # likewise 18.2, 19.5, 29.6           ~40 min each
 python run_repulsion_summary_figure.py   # model summary figure                seconds
+python run_repulsion_figure.py --replot --jacs --panels   # Figure 4 panels   seconds
+python run_si_s16_figure.py              # SI Figure S16                       ~1 min
 ```
 
 Timings were measured on a shared, fully loaded workstation. Every script

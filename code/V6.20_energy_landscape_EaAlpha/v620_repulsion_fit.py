@@ -43,6 +43,9 @@ from v620_brush_fitting import minimise_twist
 TARGET_A_NM = bv.EXP_DATA[16.0]["d"]
 TARGET_ALPHA_DEG = bv.EXP_DATA[16.0]["alpha"]
 GAMMAS = np.linspace(-60.0, 60.0, 19, endpoint=False)
+# Saturation magnetisation measured on these particles
+# (55 A m^2/kg x 5.18e3 kg/m^3).
+MS_SAMPLE_APM = 285_000.0
 
 
 @dataclass
@@ -239,6 +242,12 @@ def exponential_model(
         **kwargs,
     )
     return bv.BrushRhombohedralSL(L_nm, phys)
+
+
+def steric_model(fitted, L_nm=16.0):
+    """The fitted model a report describes (exponential steric law)."""
+    return exponential_model(fitted["P_ref_Pa"], fitted["lambda_nm"],
+                             fitted.get("Ms_Apm", MS_SAMPLE_APM), L_nm=L_nm)
 
 
 def residuals_fixed_a(x, Ms=285_000.0, area_rule="derjaguin"):
